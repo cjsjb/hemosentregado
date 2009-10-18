@@ -29,7 +29,7 @@
 %% 15
                 c'' 4 d'' c'' d'' 8 c'' ~  |
                 c'' 1  |
-                r4 f'' 8 f'' f'' f'' 4 \stemDown f'' 8 \stemNeutral  |
+                r4 f'' 8 f'' f'' f'' 4 f'' 8  |
                 e'' 4 d'' c'' d''  |
                 e'' 2 g''  |
 %% 20
@@ -55,7 +55,7 @@
                 e'' 4 g'' e'' a'' ~  |
                 a'' 4 g'' 2.  |
                 R1  |
-                r4 g'' 8 g'' \stemDown g'' \stemNeutral g'' 4 a'' 8  |
+                r4 g'' 8 g'' g'' g'' 4 a'' 8  |
 %% 40
                 g'' 4 f'' e'' d''  |
                 c'' 4 d'' c'' c'' ~  |

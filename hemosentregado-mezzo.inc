@@ -54,7 +54,7 @@
                 c'' 4 e'' c'' f'' ~  |
                 f'' 4 d'' 2.  |
                 R1  |
-                r4 e'' 8 e'' \stemDown e'' \stemNeutral e'' 4 f'' 8  |
+                r4 e'' 8 e'' e'' e'' 4 f'' 8  |
 %% 40
                 d'' 4 d'' d'' b'  |
                 c'' 4 c'' c'' c'' ~  |
@@ -70,7 +70,7 @@
 %% 50
                 c'' 1  |
                 r4 c'' 8 c'' c'' c'' 4 c'' 8  |
-                e'' 8 \stemDown d'' 4 \stemNeutral d'' 8 c'' 4 d''  |
+                e'' 8 d'' 4 d'' 8 c'' 4 d''  |
                 e'' 2 d''  |
                 f'' 1 ~  |
 %% 55
@@ -100,7 +100,7 @@
 %% 75
                 c'' 4 d'' c'' e'' 8 e'' ~  |
                 e'' 1  |
-                r4 f'' 8 f'' f'' f'' 4 \stemDown f'' 8 \stemNeutral  |
+                r4 f'' 8 f'' f'' f'' 4 f'' 8  |
                 f'' 4 e'' f'' g''  |
                 a'' 2 f'' ~  |
 %% 80

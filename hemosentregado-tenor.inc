@@ -54,7 +54,7 @@
                 g'' 4 c''' c''' c''' ~  |
                 c''' 4 b'' 2.  |
                 R1  |
-                r4 g'' 8 g'' \stemDown g'' \stemNeutral g'' 4 a'' 8  |
+                r4 g'' 8 g'' g'' g'' 4 a'' 8  |
 %% 40
                 g'' 4 f'' e'' d''  |
                 c'' 4 d'' c'' c'' ~  |

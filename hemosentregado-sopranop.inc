@@ -29,7 +29,7 @@
 %% 15
                 a'' 4 a'' a'' a'' 8 a'' ~  |
                 a'' 1  |
-                r4 a'' 8 a'' a'' a'' 4 \stemDown a'' 8 \stemNeutral  |
+                r4 a'' 8 a'' a'' a'' 4 a'' 8  |
                 b'' 4 b'' b'' b''  |
                 c''' 2 b''  |
 %% 20
