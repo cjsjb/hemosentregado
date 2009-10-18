@@ -9,7 +9,8 @@
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
 
-                \clef "treble^8"
+                \clef "treble"
+	\transpose c'' c' {
                 R1*4  |
 %% 5
                 r4 c''' 8 c''' c''' 4 c''' 8 b'' ~  |
@@ -110,6 +111,7 @@
                 c''' 2 r  |
                 R1  |
                 \bar "|."
+	}
             } % Voice
             \lyricsto "voice 1" \new Lyrics \lyricmode {
                  "He-" "mos" "en-" "tre-" "ga-" "-do" "nues-" "tras" "vi-" "das" "al" "Se-" "ñor," "no_hay" "ma-" "yor" "ben-" "di-" "-ción" "que" "ser" "de" "él." "He-" "mos" "en-" "tre-" "ga-" "-do" "nues-" "tras" "vi-" "das" "al" "Se-" "ñor," "y_él" "a-" "ho-" "ra" "nos" "da" "su" "vi-" "da_e-" "-te-" "er-" "na." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "pan," "fru-" "to" "de" "la" "tie-" "-rra_y" "del" "tra-" "-ba-" "jo" "del" "hom-" "-bre." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "vi-" "no," "que_he-" "mos" "re-" "ci-" "bi-" "-do" "de" "tu_a-" "-mor" "y" "bon-" "da-" "-ad." "Y" "a-" "ho-" "ra," "Se-" "-ñor," "te" "pre-" "sen-" "-ta-" "mos" "el" "pan" "y" "el" "vi-" "no" "que" "tú" "con-" "ver-" "ti-" "-rás" "en" "el" "cuer-" "po_y" "san-" "-gre" "de" "tu" "hi-" "i-" "jo" "Je-" "sús," "pan" "de" "vi-" "da_y" "be-" "-bi-" "da" "de" "sal-" "va-" "-ció-" "ó-" "-ón." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "pan," "fru-" "to" "de" "la" "tie-" "-rra_y" "del" "tra-" "-ba-" "jo" "del" "hom-" "-bre." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "vi-" "no" "que_he-" "mos" "re-" "ci-" "bi-" "-do" "de" "tu_a-" "-mor" "y" "bon-" "da-" "-ad." "He-" "mos" "en-" "tre-" "ga-" "-do" "nues-" "tras" "vi-" "das" "al" "Se-" "ñor," "y_él" "a-" "ho-" "ra" "nos" "da" "su" "vi-" "da_e-" "-ter-" "na" _ _ 
