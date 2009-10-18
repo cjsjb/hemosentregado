@@ -21,9 +21,8 @@
                 r4 f'' 8 f'' f'' 4 f'' 8 e''  |
 %% 10
                 d'' 4 b' c'' d''  |
-                e'' 1 \( 
-                % warning: overlong bar truncated here |
-                d'' 1 \)  |
+                e'' 1 (  |
+                d'' 1 )  |
                 r4 g'' 8 g'' g'' 4 a'' 8 g'' ~  |
                 g'' 4 f'' e'' d''  |
 %% 15
@@ -31,7 +30,7 @@
                 c'' 1  |
                 r4 f'' 8 f'' f'' f'' 4 f'' 8  |
                 e'' 4 d'' c'' d''  |
-                e'' 2 g''  |
+                e'' 2 ( g'' )  |
 %% 20
                 a'' 1 ~  |
                 a'' 2 r4 b''  |
@@ -52,8 +51,8 @@
                 r4 b'' 8 b'' b'' 4 b'' 8 b'' ~  |
 %% 35
                 b'' 4 a'' g'' f''  |
-                e'' 4 g'' e'' a'' ~  |
-                a'' 4 g'' 2.  |
+                e'' 4 g'' e'' a'' ~ ^( |
+                a'' 4 g'' 2. )  |
                 R1  |
                 r4 g'' 8 g'' g'' g'' 4 a'' 8  |
 %% 40
@@ -63,19 +62,17 @@
                 r4 f'' 8 f'' f'' f'' 4 f'' 8  |
                 e'' 4 d'' c'' d''  |
 %% 45
-                e'' 1 \( 
-                % warning: overlong bar truncated here |
-                d'' 1 \)  |
+                e'' 1 (  | 
+                d'' 1 )  |
                 r4 g'' 8 g'' g'' 4 a'' 8 g'' ~  |
                 g'' 4 f'' e'' d''  |
-                c'' 4 \( d'' \) c'' d'' 8 c'' ~  |
+                c'' 4 ( d'' ) c'' d'' 8 c'' ~  |
 %% 50
                 c'' 1  |
                 r4 f'' 8 f'' f'' f'' 4 f'' 8  |
                 e'' 8 d'' 4 d'' 8 c'' 4 d''  |
-                e'' 2 \( g'' 
-                % warning: overlong bar truncated here |
-                a'' 1 \) ~  |
+                e'' 2 ( g''  |
+                a'' 1 ) ~  |
 %% 55
                 a'' 2 r4 b''  |
                 c''' 4 b'' a'' g'' 8 a'' ~  |
@@ -96,7 +93,7 @@
                 b'' 4 a'' g'' f''  |
 %% 70
                 e'' 4 g'' e'' a'' ~  |
-                a'' 4 g'' 2.  |
+                a'' 4 ( g'' 2. )  |
                 R1  |
                 r4 g'' 8 g'' g'' 4 a'' 8 g'' ~  |
                 g'' 4 a'' b'' d'''  |
@@ -107,14 +104,35 @@
                 a'' 4 g'' a'' b''  |
                 c''' 2 a'' ~  |
 %% 80
-                a'' 2 r4 g'' 8 a''  |
+                a'' 2 r4 g'' 8 ^( a''  |
                 g'' 1 ~  |
-                g'' 2 r  |
+                g'' 2 ) r  |
                 R1  |
                 \bar "|."
 	}
             } % Voice
             \lyricsto "voice 2" \new Lyrics \lyricmode {
-                 "He-" "mos" "en-" "tre-" "ga-" "-do" "nues-" "tras" "vi-" "das" "al" "Se-" "ñor," "no_hay" "ma-" "yor" "ben-" "di-" "-ción" "que" "ser" "de" "é-" "-él." "He-" "mos" "en-" "tre-" "ga-" "-do" "nues-" "tras" "vi-" "das" "al" "Se-" "ñor," "y_él" "a-" "ho-" "ra" "nos" "da" "su" "vi-" "da_e-" "-te-" "er-" "na." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "pan," "fru-" "to" "de" "la" "tie-" "-rra_y" "del" "tra-" "-ba-" "jo" "del" "hom-" "-bre." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "vi-" "no," "que_he-" "mos" "re-" "ci-" "bi-" "-do" "de" "tu_a-" "-mor" "y" "bon-" "da-" "-ad." "Y" "a-" "ho-" "ra," "Se-" "-ñor," "te" "pre-" "sen-" "-ta-" "mos" "el" "pan" "y" "el" "vi-" "no" "que" "tú" "con-" "ver-" "ti-" "-rá-" "-ás" "en" "el" "cuer-" "po_y" "san-" "-gre" "de" "tu" "hi-" "i-" "jo" "Je-" "sús," "pan" "de" "vi-" "da_y" "be-" "-bi-" "da" "de" "sal-" "va-" "-ció-" "ó-" "-ón." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "pan," "fru-" "to" "de" "la" "tie-" "-rra_y" "del" "tra-" "-ba-" "jo" "del" "hom-" "-bre." "Ben-" "-di-" "to" "seas," "Se-" "ñor," "por" "es-" "te" "vi-" "no" "que_he-" "mos" "re-" "ci-" "bi-" "-do" "de" "tu_a-" "-mor" "y" "bon-" "da-" "-ad." "He-" "mos" "en-" "tre-" "ga-" "-do" "nues-" "tras" "vi-" "das" "al" "Se-" "ñor," "y_él" "a-" "ho-" "ra" "nos" "da" "su" "vi-" "da_e-" "-ter-" "na" _ _ _ 
+		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
+		"no hay" "ma" -- "yor" "ben" -- "di" -- "ción" "que" "ser" "de" "él." __
+		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
+		"y él" "a" -- "ho" -- "ra" "nos" "da" "su" "vi" -- "da e" -- "ter" -- "na."
+
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," "por" "es" -- "te" "pan,"
+		"fru" -- "to" "de" "la" "tie" -- "rra y" "del" "tra" -- "ba" -- "jo" "del" "hom" -- "bre."
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," "por" "es" -- "te" "vi" -- "no,"
+		"que he" -- "mos" "re" -- "ci" -- "bi" -- "do" "de" "tu a" -- "mor" "y" "bon" -- "dad." __
+
+		"Y" "a" -- "ho" -- "ra," "Se" -- "ñor," "te" "pre" -- "sen" -- "ta" -- "mos" "el" "pan"
+		"y" "el" "vi" -- "no" "que" "tú" "con" -- "ver" -- "ti" -- "rás" __
+		"en" "el" "cuer" -- "po y" "san" -- "gre" "de" "tu" "hi" __ "jo" "Je" -- "sús,"
+		"pan" "de" "vi" -- "da y" "be" -- "bi" -- "da" "de" "sal" -- "va" -- "ción." __
+
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," "por" "es" -- "te" "pan,"
+		"fru" -- "to" "de" "la" "tie" -- "rra y" "del" "tra" -- "ba" -- "jo" "del" "hom" -- "bre."
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor,"	"por" "es" -- "te" "vi" -- "no"
+		"que he" -- "mos" "re" -- "ci" -- "bi" -- "do" "de" "tu a" -- "mor" "y" "bon" -- "dad." __
+
+		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
+		"y él" "a" -- "ho" -- "ra" "nos" "da" "su" "vi" -- "da e" -- "ter" -- "na." "Ah." __
              } % Lyrics
         >> % Staff
