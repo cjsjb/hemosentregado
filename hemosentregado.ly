@@ -23,8 +23,8 @@ globalTempo = {
 	\override Score.MetronomeMark #'padding = #8.0
 
 	\include "hemosentregado-acordes.inc"
-	\include "hemosentregado-sopranop.inc"
 	\include "hemosentregado-soprano.inc"
+	\include "hemosentregado-sopranop.inc"
 	\include "hemosentregado-mezzo.inc"
 	\include "hemosentregado-tenor.inc"
 
