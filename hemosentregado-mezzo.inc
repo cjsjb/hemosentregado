@@ -6,7 +6,8 @@
             \new Voice \globalTempo
 
             \context Voice = "voice 3" {
-                \override Voice.TextScript #'padding = #2.0                \override MultiMeasureRest #'expand-limit = 1
+                \override Voice.TextScript #'padding = #2.0
+                \override MultiMeasureRest #'expand-limit = 1
 
                 \clef "treble"
                 R1*4  |
