@@ -3,7 +3,7 @@
 % point and click debugging is disabled
 #(ly:set-option 'point-and-click #f)
 \header {
-    title = "Hemos Entregado Nuestras Vidas"
+    title = "Hemos entregado nuestras vidas"
     composer = "Federico Carranza"
     tagline = "Coro Juvenil San Juan Bosco"
 }
