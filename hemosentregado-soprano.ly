@@ -7,6 +7,7 @@
 	composer = "Federico Carranza"
 	tagline = "Coro Juvenil San Juan Bosco"
 	copyright = "Copyright © 1982 Comunidad Jésed"
+	instrument = "Soprano I"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
