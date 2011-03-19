@@ -10,11 +10,11 @@
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
 global = { 
-    \time 4/4
-    \skip 1*83  %% 1-83
+    \time 2/4
+    \skip 2*83  %% 1-83
 }
 globalTempo = {
-    \tempo 4 = 140  \skip 1*83 
+    \tempo 4 = 70  \skip 2*83
 }
 \score {
     \new StaffGroup <<
