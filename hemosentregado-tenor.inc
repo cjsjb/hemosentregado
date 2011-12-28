@@ -1,70 +1,117 @@
-        \context Staff = "track 5" \with { \consists Ambitus_engraver } <<
-            \set Staff.instrumentName = "Tenor"
-            \set Staff.shortInstrumentName = "T."
-            \set Score.skipBars = ##t
-            \set Staff.printKeyCancellation = ##f
-            \new Voice \global
-            \new Voice \globalTempo
+\context Staff = "track 5" \with { \consists Ambitus_engraver } <<
+	\set Staff.instrumentName = "Tenor"
+	\set Staff.shortInstrumentName = "T."
+	\set Score.skipBars = ##t
+	\set Staff.printKeyCancellation = ##f
+	\new Voice \global
+	\new Voice \globalTempo
 
-            \context Voice = "voice 4" {
-                \override Voice.TextScript #'padding = #2.0
-                \override MultiMeasureRest #'expand-limit = 1
+	\context Voice = "voice 4" {
+		\override Voice.TextScript #'padding = #2.0
+		\override MultiMeasureRest #'expand-limit = 1
 
-                \clef "treble_8"
-	\transpose c'' c {
-                R1*2  |
-                r8 g'' 16 g'' g'' 8 a'' 16 g'' ~ g'' 8 f'' e'' d''  |
-                c'' 8 d'' c'' d'' 16 c'' ~ c'' 2  |
+		\clef "treble_8"
+		R2*4  |
 %% 5
-                r8 a'' 16 a'' a'' 8 a'' 16 a'' g'' 8 g'' f'' g''  |
-                g'' 2 ~ g''  |
-                r8 g'' 16 g'' g'' 8 a'' 16 g'' ~ g'' 8 f'' e'' d''  |
-                c'' 8 d'' c'' d'' 16 c'' ~ c'' 2  |
-                r8 a'' 16 a'' a'' a'' 8 a'' 16 g'' 8 g'' f'' g''  |
+		r8 g 16 g g 8 a 16 g ~  |
+		g 8 f e d  |
+		c 8 d c d 16 c ~  |
+		c 2  |
+		r8 a 16 a a 8 a 16 a  |
 %% 10
-                g'' 4 ( g'' ) a'' 2 ~  |
-                a'' 4 r8 d''' e''' d''' c''' b'' 16 c''' ~  |
-                c''' 4. r16 d''' e''' 8 d''' 16 c''' 4 ~ c''' 16 ~  |
-                c''' 4 r r8 d''' 16 d''' d''' 8 d''' 16 d''' ~  |
-                d''' 8 c''' b'' a'' g'' c''' c''' c''' ~  |
+		g 8 g f g  |
+		g 2 ~  |
+		g 2  |
+		r8 g 16 g g 8 a 16 g ~  |
+		g 8 f e d  |
 %% 15
-                c''' 8 b'' 4 d''' 8 e''' d''' c''' b'' 16 c''' ~  |
-                c''' 4. r16 d''' e''' 8 d''' 16 c''' 8 c''' 8. ~  |
-                c''' 4 r r8 d''' 16 d''' d''' 8 d''' 16 d''' ~  |
-                d''' 8 c''' b'' a'' g'' c''' c''' c''' ~  |
-                c''' 8 ( b'' 4. ) r2  |
+		c 8 d c d 16 c ~  |
+		c 2  |
+		r8 a 16 a a a 8 a 16  |
+		g 8 g f g  |
+		g 4 ( g )  |
 %% 20
-                r8 g'' 16 g'' g'' g'' 8 a'' 16 g'' 8 f'' e'' d''  |
-                c'' 8 d'' c'' c'' ~ c'' 2  |
-                r8 a'' 16 a'' a'' a'' 8 a'' 16 g'' 8 g'' f'' g''  |
-                g'' 2 _( f'' )  |
-                r8 g'' 16 g'' g'' 8 a'' 16 g'' ~ g'' 8 f'' e'' d''  |
+		a 2 ~  |
+		a 4 r8 d'  |
+		e' 8 d' c' b 16 c' ~  |
+		c' 4. r16 d'  |
+		e' 8 d' 16 c' 4 ~ c' 16 ~  |
 %% 25
-                c'' 8 ( d'' ) c'' d'' 16 c'' ~ c'' 2  |
-                r8 a'' 16 a'' a'' a'' 8 a'' 16 g'' g'' 8 g'' 16 f'' 8 g''  |
-                g'' 4 _( g'' a'' 2 ) ~  |
-                a'' 4 r8 d''' e''' d''' c''' b'' 16 c''' ~  |
-                c''' 4. r16 d''' e''' 8 d''' 16 c''' 4 ~ c''' 16 ~  |
+		c' 4 r  |
+		r8 d' 16 d' d' 8 d' 16 d' ~  |
+		d' 8 c' b a  |
+		g 8 c' c' c' ~  |
+		c' 8 b 4 d' 8  |
 %% 30
-                c''' 4 r r8 d''' 16 d''' d''' 8 d''' 16 d''' ~  |
-                d''' 8 c''' b'' a'' g'' c''' c''' c''' ~  |
-                c''' 8 b'' 4 d''' 8 e''' d''' c''' b'' 16 c''' ~  |
-                c''' 4. r16 d''' e''' 8 d''' 16 c''' 8 c''' 8. ~  |
-                c''' 4 r r8 d''' 16 d''' d''' 8 d''' 16 d''' ~  |
+		e' 8 d' c' b 16 c' ~  |
+		c' 4. r16 d'  |
+		e' 8 d' 16 c' 8 c' 8. ~  |
+		c' 4 r  |
+		r8 d' 16 d' d' 8 d' 16 d' ~  |
 %% 35
-                d''' 8 c''' b'' a'' g'' c''' c''' c''' ~  |
-                c''' 8 ( b'' 4. ) r2  |
-                r8 g'' 16 g'' g'' 8 a'' 16 g'' ~ g'' 8 f'' e'' d''  |
-                c'' 8 d'' c'' d'' 16 b' ~ b' 2  |
-                r8 a'' 16 a'' a'' a'' 8 a'' 16 g'' 8 g'' f'' g''  |
+		d' 8 c' b a  |
+		g 8 c' c' c' ~  |
+		c' 8 ( b 4. )  |
+		R2  |
+		r8 g 16 g g g 8 a 16  |
 %% 40
-                a'' 4 a'' ~ a'' r8 b''  |
-                c''' 2 ~ c''' 4 r  |
-                R2  |
-                \bar "|."
+		g 8 f e d  |
+		c 8 d c c ~  |
+		c 2  |
+		r8 a 16 a a a 8 a 16  |
+		g 8 g f g  |
+%% 45
+		g 2 (
+		% warning: overlong bar truncated here |
+		f 2 )  |
+		r8 g 16 g g 8 a 16 g ~  |
+		g 8 f e d  |
+		c 8 ( d ) c d 16 c ~  |
+%% 50
+		c 2  |
+		r8 a 16 a a a 8 a 16  |
+		g 16 g 8 g 16 f 8 g  |
+		g 4 ( g
+		% warning: overlong bar truncated here |
+		a 2 ) ~  |
+%% 55
+		a 4 r8 d'  |
+		e' 8 d' c' b 16 c' ~  |
+		c' 4. r16 d'  |
+		e' 8 d' 16 c' 4 ~ c' 16 ~  |
+		c' 4 r  |
+%% 60
+		r8 d' 16 d' d' 8 d' 16 d' ~  |
+		d' 8 c' b a  |
+		g 8 c' c' c' ~  |
+		c' 8 b 4 d' 8  |
+		e' 8 d' c' b 16 c' ~  |
+%% 65
+		c' 4. r16 d'  |
+		e' 8 d' 16 c' 8 c' 8. ~  |
+		c' 4 r  |
+		r8 d' 16 d' d' 8 d' 16 d' ~  |
+		d' 8 c' b a  |
+%% 70
+		g 8 c' c' c' ~  |
+		c' 8 ( b 4. )  |
+		R2  |
+		r8 g 16 g g 8 a 16 g ~  |
+		g 8 f e d  |
+%% 75
+		c 8 d c d 16 b, ~  |
+		b, 2  |
+		r8 a 16 a a a 8 a 16  |
+		g 8 g f g  |
+		a 4 a ~  |
+%% 80
+		a 4 r8 b  |
+		c' 2 ~  |
+		c' 4 r  |
+		R2  |
+		\bar "|."
 	}
-            } % Voice
-            \lyricsto "voice 4" \new Lyrics \lyricmode {
+	\lyricsto "voice 4" \new Lyrics \lyricmode {
 		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
 		"no hay" "ma" -- "yor" "ben" -- "di" -- "ción" "que" "ser" "de" "él." __
 		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
@@ -87,5 +134,5 @@
 
 		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
 		"y él" "a" -- "ho" -- "ra" "nos" "da" "su" "vi" -- "da e" -- "ter" -- "na." "Ah." __
-             } % Lyrics
-        >> % Staff
+	 }
+>>
