@@ -110,27 +110,27 @@
 		\bar "|."
 	}
 	\lyricsto "voice 2" \new Lyrics \lyricmode {
-		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
+		"He" -- "mos" "en" -- "tre" -- "ga" __ "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor," __
 		"no hay" "ma" -- "yor" "ben" -- "di" -- "ción" "que" "ser" "de" "él." __
-		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
-		"y él" "a" -- "ho" -- "ra" "nos" "da" "su" "vi" -- "da e" -- "ter" -- "na."
+		"He" -- "mos" "en" -- "tre" -- "ga" __ "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor," __
+		"y él" "a" -- "ho" -- "ra" "nos" "da" "su" "vi" -- "da e" -- "ter" __ "na." __
 
-		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," "por" "es" -- "te" "pan,"
-		"fru" -- "to" "de" "la" "tie" -- "rra y" "del" "tra" -- "ba" -- "jo" "del" "hom" -- "bre."
-		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," "por" "es" -- "te" "vi" -- "no,"
-		"que he" -- "mos" "re" -- "ci" -- "bi" -- "do" "de" "tu a" -- "mor" "y" "bon" -- "dad." __
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," __ "por" "es" -- "te" "pan," __
+		"fru" -- "to" "de" "la" "tie" __ "rra y" "del" "tra" -- "ba" -- "jo" "del" "hom" __ "bre."
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," __ "por" "es" -- "te" "vi" -- "no," __
+		"que he" -- "mos" "re" -- "ci" -- "bi" __ "do" "de" "tu a" -- "mor" "y" "bon" -- "dad." __
 
-		"Y" "a" -- "ho" -- "ra," "Se" -- "ñor," "te" "pre" -- "sen" -- "ta" -- "mos" "el" "pan"
+		"Y" "a" -- "ho" -- "ra," "Se" -- "ñor," "te" "pre" -- "sen" -- "ta" -- "mos" "el" "pan" __
 		"y" "el" "vi" -- "no" "que" "tú" "con" -- "ver" -- "ti" -- "rás" __
-		"en" "el" "cuer" -- "po y" "san" -- "gre" "de" "tu" "hi" __ "jo" "Je" -- "sús,"
+		"en" "el" "cuer" -- "po y" "san" -- "gre" "de" "tu" "hi" __ "jo" "Je" -- "sús," __
 		"pan" "de" "vi" -- "da y" "be" -- "bi" -- "da" "de" "sal" -- "va" -- "ción." __
 
-		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," "por" "es" -- "te" "pan,"
-		"fru" -- "to" "de" "la" "tie" -- "rra y" "del" "tra" -- "ba" -- "jo" "del" "hom" -- "bre."
-		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor,"	"por" "es" -- "te" "vi" -- "no"
-		"que he" -- "mos" "re" -- "ci" -- "bi" -- "do" "de" "tu a" -- "mor" "y" "bon" -- "dad." __
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," __ "por" "es" -- "te" "pan," __
+		"fru" -- "to" "de" "la" "tie" __ "rra y" "del" "tra" -- "ba" -- "jo" "del" "hom" __ "bre."
+		"Ben" -- "di" -- "to" "seas," "Se" -- "ñor," __ "por" "es" -- "te" "vi" -- "no," __
+		"que he" -- "mos" "re" -- "ci" -- "bi" __ "do" "de" "tu a" -- "mor" "y" "bon" -- "dad." __
 
-		"He" -- "mos" "en" -- "tre" -- "ga" -- "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor,"
-		"y él" "a" -- "ho" -- "ra" "nos" "da" "su" "vi" -- "da e" -- "ter" -- "na." "Ah." __
+		"He" -- "mos" "en" -- "tre" -- "ga" __ "do" "nues" -- "tras" "vi" -- "das" "al" "Se" -- "ñor," __
+		"y él" "a" -- "ho" -- "ra" "nos" "da" "su" "vi" -- "da e" -- "ter" -- "na." __ "Ah." __
 	 }
 >>
