@@ -13,23 +13,23 @@
 		\clef "treble_8"
 		R2*4  |
 %% 5
-		r8 g 16 g g 8 a 16 g ~  |
-		g 8 f e d  |
-		c 8 d c d 16 c ~  |
-		c 2  |
+		r8 c' 16 c' c' 8 c' 16 b ~  |
+		b 8 b b b  |
+		a 8 a a a 16 a ~  |
+		a 2  |
 		r8 a 16 a a 8 a 16 a  |
 %% 10
-		g 8 g f g  |
+		g 8 e f g  |
 		g 2 ~  |
 		g 2  |
-		r8 g 16 g g 8 a 16 g ~  |
-		g 8 f e d  |
+		r8 c' 16 c' c' 8 c' 16 b ~  |
+		b 8 b b b  |
 %% 15
-		c 8 d c d 16 c ~  |
-		c 2  |
+		a 8 a a a 16 a ~  |
+		a 2  |
 		r8 a 16 a a a 8 a 16  |
-		g 8 g f g  |
-		g 4 ( g )  |
+		g 8 f e f  |
+		g 4 ( f )  |
 %% 20
 		a 2 ~  |
 		a 4 r8 d'  |
@@ -53,26 +53,24 @@
 		g 8 c' c' c' ~  |
 		c' 8 ( b 4. )  |
 		R2  |
-		r8 g 16 g g g 8 a 16  |
+		r8 c' 16 c' c' c' 8 c' 16  |
 %% 40
-		g 8 f e d  |
-		c 8 d c c ~  |
-		c 2  |
+		b 8 b b b  |
+		a 8 a a a ~  |
+		a 2  |
 		r8 a 16 a a a 8 a 16  |
-		g 8 g f g  |
+		g 8 e f g  |
 %% 45
-		g 2 (
-		% warning: overlong bar truncated here |
-		f 2 )  |
-		r8 g 16 g g 8 a 16 g ~  |
-		g 8 f e d  |
-		c 8 ( d ) c d 16 c ~  |
+		g 2 ~  |
+		g 2  |
+		r8 c' 16 c' c' 8 c' 16 b ~  |
+		b 8 b b b  |
+		a 8 ( a ) a a 16 a ~  |
 %% 50
-		c 2  |
+		a 2  |
 		r8 a 16 a a a 8 a 16  |
-		g 16 g 8 g 16 f 8 g  |
-		g 4 ( g
-		% warning: overlong bar truncated here |
+		g 16 f 8 f 16 e 8 f  |
+		g 4 ( f  |
 		a 2 ) ~  |
 %% 55
 		a 4 r8 d'  |
@@ -96,18 +94,18 @@
 		g 8 c' c' c' ~  |
 		c' 8 ( b 4. )  |
 		R2  |
-		r8 g 16 g g 8 a 16 g ~  |
-		g 8 f e d  |
+		r8 c' 16 c' c' 8 c' 16 b ~  |
+		b 8 b b b  |
 %% 75
-		c 8 d c d 16 b, ~  |
-		b, 2  |
+		a 8 a a a 16 g ~  |
+		g 2  |
 		r8 a 16 a a a 8 a 16  |
-		g 8 g f g  |
-		a 4 a ~  |
+		b 8 b b b  |
+		c' 4 a ~  |
 %% 80
-		a 4 r8 b  |
+		a 4 r8 b (  |
 		c' 2 ~  |
-		c' 4 r  |
+		c' 4 ) r  |
 		R2  |
 		\bar "|."
 	}

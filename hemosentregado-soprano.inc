@@ -17,11 +17,10 @@
 		g' 8 f' e' d'  |
 		c' 8 d' c' d' 16 c' ~  |
 		c' 2  |
-		r8 f' 16 f' f' 8 f' 16 e'  |
+		r8 f' 16 f' f' 8 f' 16 f'  |
 %% 10
-		d' 8 b c' d'  |
-		e' 2 (
-		% warning: overlong bar truncated here |
+		e' 8 d' c' d'  |
+		e' 2 (  |
 		d' 2 )  |
 		r8 g' 16 g' g' 8 a' 16 g' ~  |
 		g' 8 f' e' d'  |
@@ -62,8 +61,7 @@
 		r8 f' 16 f' f' f' 8 f' 16  |
 		e' 8 d' c' d'  |
 %% 45
-		e' 2 (
-		% warning: overlong bar truncated here |
+		e' 2 (  |
 		d' 2 )  |
 		r8 g' 16 g' g' 8 a' 16 g' ~  |
 		g' 8 f' e' d'  |
@@ -72,8 +70,7 @@
 		c' 2  |
 		r8 f' 16 f' f' f' 8 f' 16  |
 		e' 16 d' 8 d' 16 c' 8 d'  |
-		e' 4 ( g'
-		% warning: overlong bar truncated here |
+		e' 4 ( g'  |
 		a' 2 ) ~  |
 %% 55
 		a' 4 r8 b'  |
@@ -106,9 +103,9 @@
 		a' 8 g' a' b'  |
 		c'' 4 a' ~  |
 %% 80
-		a' 4 r8 g' 16 a'  |
+		a' 4 r8 g' 16 ( a'  |
 		g' 2 ~  |
-		g' 4 r  |
+		g' 4 ) r  |
 		R2  |
 		\bar "|."
 	}

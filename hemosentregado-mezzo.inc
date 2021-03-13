@@ -13,22 +13,21 @@
 		\clef "treble"
 		R2*4  |
 %% 5
-		r8 e' 16 e' e' 8 f' 16 d' ~  |
-		d' 8 d' d' b  |
-		c' 8 c' c' c' 16 c' ~  |
+		r8 g' 16 g' g' 8 a' 16 g' ~  |
+		g' 8 f' e' d'  |
+		c' 8 d' c' d' 16 c' ~  |
 		c' 2  |
-		r8 c' 16 c' c' 8 c' 16 c'  |
+		r8 f' 16 f' f' 8 f' 16 f'  |
 %% 10
-		d' 8 d' c' c'  |
-		c' 2 (
-		% warning: overlong bar truncated here |
-		b 2 )  |
-		r8 e' 16 e' e' 8 f' 16 d' ~  |
-		d' 8 d' d' b  |
+		e' 8 d' c' d'  |
+		e' 2 (  |
+		d' 2 )  |
+		r8 g' 16 g' g' 8 a' 16 g' ~  |
+		g' 8 f' e' d'  |
 %% 15
-		c' 8 c' c' c' 16 c' ~  |
+		c' 8 d' c' d' 16 c' ~  |
 		c' 2  |
-		r8 c' 16 c' c' 8 c' 16 c'  |
+		r8 f' 16 f' f' f' 8 f' 16  |
 		e' 8 d' c' d'  |
 		e' 4 ( d' )  |
 %% 20
@@ -54,26 +53,24 @@
 		c' 8 e' c' f' ~  |
 		f' 8 ( d' 4. )  |
 		R2  |
-		r8 e' 16 e' e' e' 8 f' 16  |
+		r8 g' 16 g' g' g' 8 a' 16  |
 %% 40
-		d' 8 d' d' b  |
-		c' 8 c' c' c' ~  |
+		g' 8 f' e' d'  |
+		c' 8 d' c' c' ~  |
 		c' 2  |
-		r8 c' 16 c' c' c' 8 c' 16  |
-		e' 8 d' c' c'  |
+		r8 f' 16 f' f' f' 8 f' 16  |
+		e' 8 d' c' d'  |
 %% 45
-		c' 2 (
-		% warning: overlong bar truncated here |
-		b 2 )  |
-		r8 e' 16 e' e' 8 f' 16 d' ~  |
-		d' 8 d' d' b  |
-		c' 8 ( c' ) c' c' 16 c' ~  |
+		e' 2 (  |
+		d' 2 )  |
+		r8 g' 16 g' g' 8 a' 16 g' ~  |
+		g' 8 f' e' d'  |
+		c' 8 ( d' ) c' d' 16 c' ~  |
 %% 50
 		c' 2  |
-		r8 c' 16 c' c' c' 8 c' 16  |
+		r8 f' 16 f' f' f' 8 f' 16  |
 		e' 16 d' 8 d' 16 c' 8 d'  |
-		e' 4 ( d'
-		% warning: overlong bar truncated here |
+		e' 4 ( d'  |
 		f' 2 ) ~  |
 %% 55
 		f' 4 r8 g'  |
@@ -106,9 +103,9 @@
 		f' 8 e' f' g'  |
 		a' 4 f' ~  |
 %% 80
-		f' 4 r8 e' 16 f'  |
+		f' 4 r8 e' 16 ( f'  |
 		e' 2 ~  |
-		e' 4 r  |
+		e' 4 ) r  |
 		R2  |
 		\bar "|."
 	}
