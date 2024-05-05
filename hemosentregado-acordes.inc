@@ -10,16 +10,16 @@
 		c2 g2 a2:m a2:m
 		f2 g2 c4 g4 f2 f2
 		%
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 g4 g2
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 g4 g2 g2
+		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2
+		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2 g2
 		%
 		c2 g2 a2:m a2:m
 		f2 g2 c2 g2
 		c2 g2 a2:m a2:m
 		f2 g2 c4 g4 f2 f2
 		%
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 g4 g2
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 g4 g2 g2
+		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2
+		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2 g2
 		%
 		c2 g2 a2:m e2:m
 		f2 g2 f2 f2
