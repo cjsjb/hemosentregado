@@ -20,8 +20,7 @@
 		r8 a' 16 a' a' 8 a' 16 a'  |
 %% 10
 		g' 8 e' f' g'  |
-		g' 4 ( c''
-		% warning: overlong bar truncated here |
+		g' 4 ( c''  |
 		b' 16 a' g' 8 ~ g' 4 )  |
 		r8 c'' 16 c'' c'' 8 c'' 16 b' ~  |
 		b' 8 b' b' b'  |
@@ -62,8 +61,7 @@
 		r8 a' 16 a' a' a' 8 a' 16  |
 		g' 8 e' f' g'  |
 %% 45
-		g' 4 ( c''
-		% warning: overlong bar truncated here |
+		g' 4 ( c''  |
 		b' 16 a' g' 8 ~ g' 4 )  |
 		r8 c'' 16 c'' c'' 8 c'' 16 b' ~  |
 		b' 8 b' b' b'  |
@@ -72,8 +70,7 @@
 		a' 2  |
 		r8 a' 16 a' a' a' 8 a' 16  |
 		b' 16 b' 8 b' 16 b' 8 b'  |
-		c'' 4 ( b'
-		% warning: overlong bar truncated here |
+		c'' 4 ( b'  |
 		c'' 2 ) ~  |
 %% 55
 		c'' 4 r8 b'  |

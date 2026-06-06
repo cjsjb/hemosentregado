@@ -1,27 +1,26 @@
-	\context ChordNames 
-		\chords { 
-		\set majorSevenSymbol = \markup { "maj7" }
-		\set chordChanges = ##t
-		c2 c2:maj7
-		c2 c2:maj7
-		%
-		c2 g2 a2:m a2:m
-		f2 g2 c2 g2
-		c2 g2 a2:m a2:m
-		f2 g2 c4 g4 f2 f2
-		%
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2 g2
-		%
-		c2 g2 a2:m a2:m
-		f2 g2 c2 g2
-		c2 g2 a2:m a2:m
-		f2 g2 c4 g4 f2 f2
-		%
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2
-		a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2 g2
-		%
-		c2 g2 a2:m e2:m
-		f2 g2 f2 f2
-		c2 c2
-		}
+\context ChordNames \chords {
+	\set majorSevenSymbol = \markup { "maj7" }
+	\set chordChanges = ##t
+	c2 c2:maj7
+	c2 c2:maj7
+	%
+	c2 g2 a2:m a2:m
+	f2 g2 c2 g2
+	c2 g2 a2:m a2:m
+	f2 g2 c4 g4 f2 f2
+	%
+	a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2
+	a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2 g2
+	%
+	c2 g2 a2:m a2:m
+	f2 g2 c2 g2
+	c2 g2 a2:m a2:m
+	f2 g2 c4 g4 f2 f2
+	%
+	a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2
+	a2:m a2:m f2 f4 s8 fis8 g2 g2 c4 ~ c8 g8 g2 g2
+	%
+	c2 g2 a2:m e2:m
+	f2 g2 f2 f2
+	c2 c2
+}
